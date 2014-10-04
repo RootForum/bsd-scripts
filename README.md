@@ -41,6 +41,13 @@ The latter step happens per recommendation from August 17, 2013 in `/usr/ports/U
 > This feature might be implemented once Python 3 becomes the standard interpreter and upgrades between minor versions
 > become once again more relevant than they are today...
 
+update-ports
+------------
+
+`update-ports` is a helper script that updates all installed ports to their latest versions in portstree.
+
+This script depends on `portupgrade` and `portversion` which are both part of the `ports-mgmt/portupgrade` port.
+
 Credits
 -------
 
